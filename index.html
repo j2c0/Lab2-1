@@ -185,82 +185,80 @@
         
         </main>
  
-    </body>
- 
- 
-    <footer>
-        <hr>
-        <h2>New Entry?</h2>
-        <form>
-            <fieldset>
-                <section class="date_of_entry">
-                <label>Please enter date of journal entry:</label>
-                <input id="formDate" name="entryDate" type="date">
-                </section>
-                
- 
-                <section class="measureOfDay">
-                    <span>How was your day?</span>
-                    <br>
-                    <input type="checkbox" name="quality" id="good" value="good">
-                    <label for="good">Good</label>
-                    <input type="checkbox" name="quality" id="average" value="average">
-                    <label for="average">Average</label>
-                    <input type="checkbox" name="quality" id="bad" value="bad">
-                    <label for="bad">Bad</label>
-                </section>
- 
-                <section class="reliveDay">
-                    <span>If given the chance, would you want to relive this day over again?</span>
-                    <br>
-                    <input type="radio" name="relive" id="yes" value="yes">
-                    <label for="yes">Yes</label>
-                    <input type="radio" name="relive" id="no" value="yes">
-                    <label for="no">No</label>
-                </section>
- 
-                <section class="whyReliveDay">
-                    <span>Why or why not would you want to relive this day?</span>
-                    <br>
-                    <input type="text" name="relive_pt2" id="relive_pt2">
-                    <label for="relive_pt2">Type why here...</label>
+        <footer>
+            <hr>
+            <h2>New Entry?</h2>
+            <form>
+                <fieldset>
+                    <section class="date_of_entry">
+                    <label>Please enter date of journal entry:</label>
+                    <input id="formDate" name="entryDate" type="date">
+                    </section>
                     
-                </section>
- 
-                <label for="dayActivity">On a scale from 1 to 5,
-                choose how active you think you were today.
-                </label>
-                <input list="one_to_five" name="dayActivity" id="dayActivity">
-                <datalist id="one_to_five">
-                    <option value="1">
-                    <option value="2">
-                    <option value="3">
-                    <option value="4">
-                    <option value="5">
-                </datalist>
- 
-                <br>
-                <label for="color">Choose a color that best represents
-                how your day went...
-                </label>
-                <select name="color" id="color">
-                    <option value="red">Red</option>
-                    <option value="orange">Orange</option>
-                    <option value="yellow">Yellow</option>
-                    <option value="Green">Green</option>
-                    <option value="blue">Blue</option>
-                    <option value="purple">Purple</option>
-                </select>
- 
- 
-                <div class="newEntry">
-                <label>Rant Here...</label>
-                <br>
-                <textarea id="formMessage" name="formMessage" placeholder="Your Thoughts..."></textarea>
-                </div>
- 
-                <button type="submit">Submit New Entry!</button>
-            </fieldset>
-          </form>
-    </footer>
+     
+                    <section class="measureOfDay">
+                        <span>How was your day?</span>
+                        <br>
+                        <input type="checkbox" name="quality" id="good" value="good">
+                        <label for="good">Good</label>
+                        <input type="checkbox" name="quality" id="average" value="average">
+                        <label for="average">Average</label>
+                        <input type="checkbox" name="quality" id="bad" value="bad">
+                        <label for="bad">Bad</label>
+                    </section>
+     
+                    <section class="reliveDay">
+                        <span>If given the chance, would you want to relive this day over again?</span>
+                        <br>
+                        <input type="radio" name="relive" id="yes" value="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="relive" id="no" value="yes">
+                        <label for="no">No</label>
+                    </section>
+     
+                    <section class="whyReliveDay">
+                        <span>Why or why not would you want to relive this day?</span>
+                        <br>
+                        <input type="text" name="relive_pt2" id="relive_pt2">
+                        <label for="relive_pt2">Type why here...</label>
+                        
+                    </section>
+     
+                    <label for="dayActivity">On a scale from 1 to 5,
+                    choose how active you think you were today.
+                    </label>
+                    <input list="one_to_five" name="dayActivity" id="dayActivity">
+                    <datalist id="one_to_five">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                    </datalist>
+     
+                    <br>
+                    <label for="color">Choose a color that best represents
+                    how your day went...
+                    </label>
+                    <select name="color" id="color">
+                        <option value="red">Red</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="Green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                    </select>
+     
+     
+                    <div class="newEntry">
+                    <label>Rant Here...</label>
+                    <br>
+                    <textarea id="formMessage" name="formMessage" placeholder="Your Thoughts..."></textarea>
+                    </div>
+     
+                    <button type="submit">Submit New Entry!</button>
+                </fieldset>
+              </form>
+        </footer>
+    </body>
 </html>
